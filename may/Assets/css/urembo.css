@@ -1,0 +1,60 @@
+
+body{
+background-image: url("Assets/images/kfcc.jpg");
+}
+
+
+ul{
+list-style-type:none;z
+background-color:aqua;
+overflow:Auto;
+
+font_family:"sedan_sc";
+position:sticky;
+
+}
+
+li{
+float:left;
+
+padding:0;
+
+
+
+
+}
+li a{
+
+padding:20px;
+color:blue;
+display:block;
+text-decoration:none
+
+
+}
+h2{
+color:brown;
+text-align: center;
+
+}
+
+p{
+color: brown;
+font_family:font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+
+}
+
+
+
+th,td{
+    border: 3px solid red;
+    padding: 20px;
+    font-family: "Candara Light";
+    font-size: 20px;
+}
+ table{
+     border-collapse: collapse;
+     width: 100%;
+ }
+

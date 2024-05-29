@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>student registration form</title>
+    <link rel="stylesheet" href="Assets/css/hh.css">
+</head>
+<body>
+<div class="form">
+<h2>Registration form</h2>
+<form action="">
+
+    <label for="fname">firstname:</label>
+    <input type="text" id="fname" required placeholder="Enter First name  "><br><br>
+    <label for ="lname" >lastname:</label>
+    <input type="text" id="lname" required placeholder="Enter last name"><br><br>
+    <label for="barua" >email adress:</label>
+    <input type="email" id="barua" required placeholder="samuelngangachege@gmail.com"><br><br>
+    <label for="pno">phonenumber:</label>
+    <input type="tel" id="pno" required placeholder="254701118688"><br><br>
+    <label for="male">male</label>
+    <input type="radio" id="male" name="gender"><br><br>
+     <label for="female">female</label>
+    <input type="radio" id="female" name="gender"><br><br>
+     <label for="other">male</label>
+    <input type="radio" id="other" name="gender"><br><br>
+
+    <label for="course">course taken</label>
+    <select name="course" id="course">
+        <option value="javascript">javascript</option>
+        <option value="css">css</option>
+        <option value="python django">python django</option>
+        <option value="react">react</option>
+        <option value="vue">vue</option>
+        <option value="webdevelopment">webdevelopment</option>
+
+
+    </select><br><br>
+
+    <label for="pic">upload picture</label>
+    <input type="file" name="pic" id="pic"><br><br>
+    <label for="Dob">Date of Birth</label>
+    <input type="date" id="Dob"><br><br>
+
+    <label for="pass">password":</label>
+    <input type="password" id="pass" required placeholder="min-length=6 max-length=15 A,b,1,@ "><br><br>
+
+
+
+
+
+    <input type="button"  value="register">
+</form>
+</div>
+</body>
+</html>

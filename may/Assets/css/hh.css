@@ -1,0 +1,75 @@
+.fruits{
+    border: 2px solid red;
+    text-align: center;
+    padding:15px;
+    margin: 15px;
+    color: #6495ED;
+    float: left;
+        height: 200px;
+    width:200px
+
+}
+
+
+
+.cars{
+
+    border: 3px dotted darkslateblue;
+    text-align: start;
+    padding:30px;
+    margin: 10px;
+    color: orangered;
+    background-color: #6495ED;
+    float: left;
+        height: 200px;
+    width:200px
+
+}
+.Fruits{
+    border: 3px dotted darkorange;
+    text-align: center;
+    padding: 20px;
+    color: darkslateblue;
+    background-color: brown;
+    float: left;
+    height: 200px;
+    width:200px
+}
+
+#school{
+
+    background-color: antiquewhite;
+    border: 3px solid indigo;
+    padding: 20px;
+    text-align: center;
+    color: brown;
+    margin: 10px;
+    float: left;
+    height: 200px;
+    width:200px
+
+}
+.form{
+    text-align: center;
+    background-color: orange;
+    color: indigo;
+    border: 2px solid;
+    background-size: cover;
+    padding: 1em;
+   margin: auto;
+}
+label{
+    display: inline-block;
+    width: 90px;
+}
+
+.xiframe{
+
+float: left;
+
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr ;
+    padding:0em;
+    margin:20px ;
+
+}
